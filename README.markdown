@@ -28,6 +28,11 @@ See [Pro-Git: Submodules](http://progit.org/book/ch6-6.html)
       end
     end
 
+Zsh files
+---------
+~/.zshenv    
+~/.zshrc    
+
 Vim files
 ---------
 ### People to watch and copy
