@@ -5,9 +5,28 @@ CootCraig's dotfiles
 
 Git submodules
 --------------
-git submodule init    
-git submodule update    
-Consider --recursive?   
+See [Pro-Git: Submodules](http://progit.org/book/ch6-6.html)   
+
+### Generate a script with the git submodule add command
+    File.open('gitmodules') do |f|
+      path = url = ""
+      f.each do |line|
+        s = line.split('=')
+        if s.length == 2
+          s[0] = s[0].downcase.strip
+          s[1] = s[1].downcase.strip
+          if s[0] == "path"
+            path = s[1]
+            url = ""
+          end
+          if s[0] == "url"
+            url = s[1]
+            puts "git submodule add #{url} #{path}"
+            path = url = ""
+          end
+        end
+      end
+    end
 
 Vim files
 ---------
