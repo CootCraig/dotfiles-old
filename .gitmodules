@@ -1,63 +1,63 @@
-[submodule "vim/vim-pathogen"]
+[submodule "vim_vim-pathogen"]
         path = vim/vim-pathogen
         url = https://github.com/tpope/vim-pathogen.git
-[submodule "vim/bundle/git-runtime"]
+[submodule "vim_git-runtime"]
 	path = vim/bundle/git-runtime
 	url = https://github.com/tpope/vim-git.git
-[submodule "vim/bundle/endwise"]
+[submodule "vim_endwise"]
 	path = vim/bundle/endwise
 	url = https://github.com/tpope/vim-endwise.git
-[submodule "vim/bundle/surround"]
+[submodule "vim_surround"]
 	path = vim/bundle/surround
 	url = https://github.com/tpope/vim-surround.git
-[submodule "vim/bundle/rails"]
+[submodule "vim_rails"]
 	path = vim/bundle/rails
 	url = https://github.com/tpope/vim-rails.git
-[submodule "vim/bundle/ragtag"]
+[submodule "vim_ragtag"]
 	path = vim/bundle/ragtag
 	url = https://github.com/tpope/vim-ragtag.git
-[submodule "vim/bundle/nerdtree"]
+[submodule "vim_nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "vim/bundle/nerdcommenter"]
+[submodule "vim_nerdcommenter"]
 	path = vim/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "vim/bundle/syntastic"]
+[submodule "vim_syntastic"]
 	path = vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "vim/bundle/csapprox"]
+[submodule "vim_csapprox"]
 	path = vim/bundle/csapprox
 	url = https://github.com/godlygeek/csapprox.git
-[submodule "vim/bundle/vim-ruby"]
+[submodule "vim_vim-ruby"]
 	path = vim/bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
-[submodule "vim/bundle/snipmate"]
+[submodule "vim_snipmate"]
 	path = vim/bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim.git
-[submodule "vim/bundle/bufexplorer"]
+[submodule "vim_bufexplorer"]
 	path = vim/bundle/bufexplorer
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
-[submodule "vim/bundle/a"]
+[submodule "vim_a"]
 	path = vim/bundle/a
 	url = https://github.com/vim-scripts/a.vim.git
-[submodule "vim/bundle/taglist"]
+[submodule "vim_taglist"]
 	path = vim/bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
-[submodule "vim/bundle/indexed-search"]
+[submodule "vim_indexed-search"]
 	path = vim/bundle/indexed-search
 	url = https://github.com/vim-scripts/IndexedSearch.git
-[submodule "vim/bundle/delimitMate"]
+[submodule "vim_delimitMate"]
 	path = vim/bundle/delimitMate
 	url = https://github.com/vim-scripts/delimitMate.vim.git
-[submodule "vim/bundle/matchit"]
+[submodule "vim_matchit"]
 	path = vim/bundle/matchit
 	url = https://github.com/vim-scripts/matchit.zip.git
-[submodule "vim/bundle/markdown-runtime"]
+[submodule "vim_markdown-runtime"]
 	path = vim/bundle/markdown-runtime
 	url = https://github.com/tpope/vim-markdown.git
-[submodule "vim/bundle/ultisnips"]
+[submodule "vim_ultisnips"]
 	path = vim/bundle/ultisnips
 	url = https://github.com/vim-scripts/UltiSnips.git
-[submodule "vim/bundle/gundo"]
+[submodule "vim_gundo"]
 	path = vim/bundle/gundo
 	url = https://github.com/sjl/gundo.vim.git
