@@ -21,3 +21,4 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+export TERM="xterm-256color"

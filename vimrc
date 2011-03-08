@@ -2,6 +2,8 @@
 "This must be first, because it changes other options as a side effect.
 set nocompatible
 
+runtime vim-pathogen/autoload/pathogen.vim
+
 "activate pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -14,7 +16,6 @@ set shell=zsh
 
 " Enable filetype-specific indenting, syntax, and plugins
 filetype plugin indent on
-set nocompatible
 syntax on
 
 " Disable bell.

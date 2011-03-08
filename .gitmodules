@@ -79,3 +79,6 @@
 [submodule "vim/bundle/vim-ruby-refactoring"]
 	path = vim/bundle/vim-ruby-refactoring
 	url = https://github.com/ecomba/vim-ruby-refactoring.git
+[submodule "vim/bundle/vim-blackboard"]
+	path = vim/bundle/vim-blackboard
+	url = git://github.com/nelstrom/vim-blackboard.git
