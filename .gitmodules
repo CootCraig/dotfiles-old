@@ -82,3 +82,6 @@
 [submodule "vim/bundle/vim-blackboard"]
 	path = vim/bundle/vim-blackboard
 	url = git://github.com/nelstrom/vim-blackboard.git
+[submodule "emacs.d/vendor/spiffy"]
+	path = emacs.d/vendor/spiffy
+	url = git://github.com/smerritt/spiffy-elisp.git

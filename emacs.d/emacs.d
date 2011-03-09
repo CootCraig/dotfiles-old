@@ -1,0 +1,1 @@
+/home/craig/dotfiles/emacs.d
