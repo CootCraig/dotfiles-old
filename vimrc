@@ -8,6 +8,14 @@ runtime vim-pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+"Use case-smart searching
+set ignorecase
+set smartcase
+
+set title
+set scrolloff=3
+set shortmess=atI
+
 " UTF-8 All the way
 scriptencoding utf-8
 
