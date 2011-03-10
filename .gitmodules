@@ -85,3 +85,6 @@
 [submodule "emacs.d/vendor/spiffy"]
 	path = emacs.d/vendor/spiffy
 	url = git://github.com/smerritt/spiffy-elisp.git
+[submodule "vim/bundle/zencoding"]
+	path = vim/bundle/zencoding
+	url = https://github.com/mattn/zencoding-vim
