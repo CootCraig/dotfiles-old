@@ -8,6 +8,8 @@ runtime vim-pathogen/autoload/pathogen.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
+set hidden
+
 "Use case-smart searching
 set ignorecase
 set smartcase
@@ -37,7 +39,8 @@ set autoread
 " Explicitly set 256 color support
 " set t_Co=256
 
-colorscheme vividchalk
+" colorscheme vividchalk
+colorscheme calmar256-dark
 
 " TEXT SETTINGS
 
@@ -76,6 +79,7 @@ set directory=/tmp/
 
 " Use the tab complete menu
 set wildmenu
+set wildmode=list:longest,full
 
 " KEYBINDINGS
 
