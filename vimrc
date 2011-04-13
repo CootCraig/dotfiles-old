@@ -18,6 +18,20 @@ set title
 set scrolloff=3
 set shortmess=atI
 
+" Search Config
+
+" show the `best match so far' as search strings are typed:
+set incsearch
+
+" assume the /g flag on :s substitutions to replace all matches in a line:
+set gdefault
+
+" <leader>f to startup an ack search
+map <leader>f :Ack<Space>
+
+nnoremap ' `
+nnoremap ` '
+
 " UTF-8 All the way
 scriptencoding utf-8
 
@@ -37,7 +51,7 @@ set autoread
 " COLOR SUPPORT
 
 " Explicitly set 256 color support
-" set t_Co=256
+set t_Co=256
 
 " colorscheme vividchalk
 colorscheme calmar256-dark
@@ -143,18 +157,6 @@ let NERDTreeIgnore=['\.$', '\~$']
 nmap <F2> :NERDTreeToggle<CR>
 
 
-" Search Config
-
-" show the `best match so far' as search strings are typed:
-set incsearch
-
-" assume the /g flag on :s substitutions to replace all matches in a line:
-set gdefault
-
-" <leader>f to startup an ack search
-map <leader>f :Ack<Space>
-
-
 " RUBY
 
 " Highlight ruby operators
@@ -237,3 +239,8 @@ augroup END
 augroup CoreysMadMappings
   map <leader>1 :on<cr>:AV<cr>
 augroup END
+
+" taglist
+"
+nmap <F3> :TlistToggle<CR>
+

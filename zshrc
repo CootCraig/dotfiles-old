@@ -21,4 +21,13 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export TERM="xterm-256color"
+export TERM="screen-256color"
+
+export EC2_PRIVATE_KEY=$HOME/aws_keys/pk-K5XOCT24OQBJJMJNZD7XN7RJFFGD4USW.pem
+export EC2_CERT=$HOME/aws_keys/cert-K5XOCT24OQBJJMJNZD7XN7RJFFGD4USW.pem
+
+export JAVA_HOME=/usr/lib/jvm/java-6-sun/
+export JDK_HOME=/usr/lib/jvm/java-6-sun/
+
+export EDITOR=vim
+alias t="TERM=screen-256color tmux -2 -u"

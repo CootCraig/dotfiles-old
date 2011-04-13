@@ -1,0 +1,26 @@
+sessions:
+  - name: craig
+    windows:
+      - name: FortMux
+        commands:
+          - cd /home/craig/dev/tmux_gems
+          - vim
+        panes:
+          - options: -d -v -p 15
+            commands:
+            - cd /home/craig/dev/tmux_gems
+          - options: -d -h -l 36
+            commands:
+            - cd /home/craig/dev/tmux_gems
+      - name: Ec2
+        commands:
+          - cd /home/craig/dev/Ec2InitProjects
+          - vim
+        panes:
+          - options: -d -v -p 15
+            commands:
+            - cd /home/craig/dev/Ec2InitProjects
+          - options: -d -h -l 36
+            commands:
+            - cd /home/craig/dev/Ec2InitProject
+

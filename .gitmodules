@@ -94,9 +94,6 @@
 [submodule "vim/bundle/lusty"]
 	path = vim/bundle/lusty
 	url = git://github.com/sjbach/lusty.git
-[submodule "vim/bundle/rubytest"]
-	path = vim/bundle/rubytest
-	url = git://github.com/janx/vim-rubytest.git
-[submodule "vim/bundle/ruby-debugger"]
-	path = vim/bundle/ruby-debugger
-	url = git://github.com/astashov/vim-ruby-debugger.git
+[submodule "vim/bundle/vim-scratch"]
+	path = vim/bundle/vim-scratch
+	url = git://github.com/kana/vim-scratch.git
