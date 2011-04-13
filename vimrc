@@ -26,9 +26,6 @@ set incsearch
 " assume the /g flag on :s substitutions to replace all matches in a line:
 set gdefault
 
-" <leader>f to startup an ack search
-map <leader>f :Ack<Space>
-
 nnoremap ' `
 nnoremap ` '
 
@@ -106,13 +103,6 @@ nnoremap Y y$
 
 " CUSTOM PLUGINS
 
-" FuzzyFinder Path Splitting (ala textmate)
-let g:fuf_splitPathMatching = 1
-
-" Write stats to file
-let g:fuf_infoFile = '~/.vim-fuf'
-let g:fuf_learningLimit = 500
-
 " CUSTOM FUNCTIONS
 
 " Add RebuildTagsFile function/command
@@ -165,29 +155,6 @@ let ruby_operators = 1
 " Turn off rails bits of statusbar
 let g:rails_statusline=0
 
-" Clojure config
-
-" Enable gorilla for the lisp on the jvm
-let clj_want_gorilla = 0
-
-" Highlight built-in clojure functions
-let g:clj_highlight_builtins = 1
-
-" Also highlight contrib
-let g:clj_highlight_contrib = 1
-
-" Paren Rainbow (diff colors for diff nestings)
-let g:clj_paren_rainbow = 1
-
-" Auto added used namespaces, generally be awesome
-let g:clj_dynamic_highlighting = 1
-
-
-" NERDCommenter
-let NERDDefaultNesting = 0
-let NERDRemoveExtraSpaces = 1
-let NERDSpaceDelims = 1
-
 " NERDTree
 
 " Enable nice colors
@@ -205,15 +172,7 @@ let NERDTreeShowHidden = 1
 let NERDTreeHijackNetrw = 0
 let NERDTreeIgnore=['\.$', '\~$']
 
-" NeoComplCache
-" let g:NeoComplCache_EnableAtStartup=1
-
-
 " AUTOCOMMANDS
-
-function! CustomClojureSettings()
-  set filetype=clojure
-endfunction
 
 " function! CustomJsonSettings()
   " autocmd BufRead *.json set filetype=json
@@ -226,19 +185,6 @@ endfunction
 function! CustomMarkdownSettings()
   set filetype=mkd
 endfunction
-
-augroup SpicyAutoCommands
-  autocmd BufEnter,BufWritePost *.clj   call CustomClojureSettings()
-  autocmd BufEnter *.markdown call CustomMarkdownSettings()
-  " autocmd BufRead *.json call CustomJsonSettings()
-  " autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
-  " autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
-  " autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
-augroup END
-
-augroup CoreysMadMappings
-  map <leader>1 :on<cr>:AV<cr>
-augroup END
 
 " taglist
 "
